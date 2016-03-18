@@ -1,6 +1,6 @@
 
 <h3><?php echo "Mes disques -> ".$userinfo?></h3>
-{{q['glButton1']}}
+<?php echo $q['glButton1']; ?>
 
 
 <div class="list-group">
@@ -22,15 +22,15 @@ echo "
     if($i==0){
 
 ?>
-    {{q['pb1']}}
-    {{q['Open']}}
+    <?php echo $q['pb1']; ?>
+    <?php echo $q['Open']; ?>
     <?php
     }
     $i++;
     }
     ?>
-    {{q['pb2']}}
-    {{q['Open']}}
+    <?php echo $q['pb2']; ?>
+    <?php echo $q['Open']; ?>
 
 
 </div>
